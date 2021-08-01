@@ -1,0 +1,192 @@
+
+body
+{
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #F7F3E8;
+}
+.linkActive
+{
+    font-weight: 900 !important;
+
+}
+.lead{
+    color: #3c8a75;
+}
+h1
+{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000;
+}
+a
+{
+    font-size: 0.9rem;
+}
+#btnUp
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99999;
+    display: none;
+}
+.lone{
+    height: 2px;
+    width: 80px;
+    background-color: #3c8a75;
+    margin-left: 715px;
+}
+.color-main
+{
+    color: #3c8a75 !important;
+}
+.bg-main
+{
+    background-color: #ff206e !important ;
+}
+.bg-black
+{
+    background-color: black !important;
+}
+.title h2 , .title h3
+{
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.title h2
+{
+    font-size: 5rem;
+}
+.title h3
+{
+    font-size: 2.5rem;
+    color: #000;
+}
+.navbar-padding
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#main-nav
+{
+    transition: background-color 2s , padding 2s;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: black !important;
+}
+a:hover
+{
+    color: #3c8a75;
+}
+.icon
+{
+    height: 2.2rem;
+    width: 2.2rem;
+    margin: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+  
+}
+.icon a
+{
+    color: black;
+}
+header
+{
+    overflow: hidden;
+    height: 100vh;
+    background-image: url(../images/Remini20210625230914292.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: black;
+}
+
+
+#services .title h2
+{
+    color: #222;
+}
+#services .title h3
+{
+    color: black;
+}
+#services .icon
+{
+    background-color: #3c8a75;
+    color: black;
+    border-radius: 50%;
+    bottom:100%;
+    left: 50%;   
+    transform: translateX(-50%) translateY(50%);
+}
+#services h4
+{
+    position: relative;
+}
+#services h4::after
+{
+    content:"";
+    width: 15%;
+    height: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    position: absolute;
+    background-color: #3c8a75 ;
+}
+.service-item
+{
+    margin: 40px 0px;
+}
+
+.line{
+    height: 2px;
+    width: 80px;
+    background-color: black;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(0, 0, 0, 0);;
+}
+
+.dec{
+    background-color: #3c8a75;
+    color: black;
+}
+
+.navbar-dark .navbar-toggler-icon{
+        background-image: url(../images/menu.png);
+}
+.btn{
+    background-color: #3c8a75;
+    border-color:#ffffff00;
+}
+
+.btn:hover{
+    background-color:#539986;
+    border-color:#ffffff00;
+}
+
+.DOCS{
+    font-weight: 600;
+}
+
+.DOCS:hover{
+    color: #3c8a75;
+}
+
+#home{
+    overflow: hidden;
+}
+#about{
+    overflow: hidden;
+}
+#services{
+    overflow: hidden;
+}
+#work{
+    overflow: hidden;
+}
